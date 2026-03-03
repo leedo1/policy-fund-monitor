@@ -3,7 +3,7 @@ name: Policy Fund Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # 매일 오전 9시 한국시간
+    - cron: '0 0 * * *'
 
 jobs:
   build:
